@@ -79,3 +79,5 @@ if __name__ == '__main__':
         logging.info('-----------------------🧐 Service running in Lazy Mode 😴-----------------------')
     except KeyboardInterrupt:
         logging.info('-----------------------😜 Service Stopped Sweetheart 😝-----------------------')
+import os
+os.environ["DATABASE_URI"] = "mongodb+srv://Dileep:Dileep@cluster0.gejzy.mongodb.net/Telegramfiles?retryWrites=true&w=majority"
