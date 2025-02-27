@@ -2,6 +2,7 @@
     "name": "LazyPrincess",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
+    "logo": "https://www.google.com/search?q=hacker+welcome&client=ms-android-oppo-rvo2&sca_esv=be29cc62fc8e0244&udm=2&sxsrf=AHTn8zoSW17B4LxXaTktKrczq-7Qg7j23w%3A1740139346185&ei=Umu4Z7r4Cr2RnesP6o3N2Qc&oq=hacker+welcome&gs_lp=EhJtb2JpbGUtZ3dzLXdpei1pbWciDmhhY2tlciB3ZWxjb21lMgYQABgHGB4yBBAAGB4yBhAAGAgYHjIGEAAYCBgeMgYQABgIGB5IyChQ7RFYxyNwAHgAkAEAmAG3CKABwiOqAQsyLTMuNS0yLjIuMbgBA8gBAPgBAZgCBKAClA_CAgcQIxgnGMkCwgIIEAAYgAQYsQPCAgoQABiABBhDGIoFwgIIEAAYBxgKGB7CAgoQIxixAhgnGMkCwgIHEAAYgAQYDZgDAIgGAZIHCTItMi41LTEuMaAHhBw&sclient=mobile-gws-wiz-img#vhid=2MwuPY7PMPtJxM&vssid=mosaic",
     "keywords": [
       "telegram",
       "auto-filter",
