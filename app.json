@@ -2,7 +2,6 @@
     "name": "LazyPrincess",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
-    "logo": "https://www.google.com/search?q=hacker+welcome&client=ms-android-oppo-rvo2&sca_esv=be29cc62fc8e0244&udm=2&sxsrf=AHTn8zoSW17B4LxXaTktKrczq-7Qg7j23w%3A1740139346185&ei=Umu4Z7r4Cr2RnesP6o3N2Qc&oq=hacker+welcome&gs_lp=EhJtb2JpbGUtZ3dzLXdpei1pbWciDmhhY2tlciB3ZWxjb21lMgYQABgHGB4yBBAAGB4yBhAAGAgYHjIGEAAYCBgeMgYQABgIGB5IyChQ7RFYxyNwAHgAkAEAmAG3CKABwiOqAQsyLTMuNS0yLjIuMbgBA8gBAPgBAZgCBKAClA_CAgcQIxgnGMkCwgIIEAAYgAQYsQPCAgoQABiABBhDGIoFwgIIEAAYBxgKGB7CAgoQIxixAhgnGMkCwgIHEAAYgAQYDZgDAIgGAZIHCTItMi41LTEuMaAHhBw&sclient=mobile-gws-wiz-img#vhid=2MwuPY7PMPtJxM&vssid=mosaic",
     "keywords": [
       "telegram",
       "auto-filter",
@@ -41,7 +40,7 @@
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
-            "required": false
+            "required": true 
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
@@ -49,11 +48,11 @@
         },
         "AUTH_USERS": {
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
-            "required": false
+            "required": true 
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-            "required": false
+            "required": true 
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com.",
@@ -61,12 +60,12 @@
         },
         "DATABASE_NAME": {
             "description": "mongoDB Database name.",
-            "required": false
+            "required": true
         },
         "COLLECTION_NAME": {
             "description": "Name of the collections. Defaults name is Telegram_files. If you are using the same database, then use different collection name for each bot",
             "value": "Telegram_files",
-            "required": false
+            "required": true
         },
         "SLEEP_THRESHOLD": {
             "description": "Floodwait Sleep timer. Read the readme for more info about this var",
